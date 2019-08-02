@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    首页
+    购物车
   </div>
 </template>
 
@@ -8,8 +8,6 @@
 // @ is an alias to /src
 
 export default {
-  name: 'home',
-  components: {
-  }
+  
 }
 </script>
