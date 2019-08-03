@@ -8,11 +8,17 @@ import "@/assets/js/rem.js"
 
 Vue.config.productionTip = false
 
+// vant组件全部引入
+// import Vant from 'vant';
+// import 'vant/lib/index.css';
 
-import Vant from 'vant';
-import 'vant/lib/index.css';
+// Vue.use(Vant);
 
-Vue.use(Vant);
+// vant按需引入
+import { Button, Icon, NavBar, Tabbar, TabbarItem, Swipe, SwipeItem, Lazyload } from 'vant';
+
+Vue.use(Button).use(Icon).use(NavBar).use(Tabbar).use(TabbarItem).use(Swipe).use(SwipeItem).use(Lazyload);
+
 
 new Vue({
   router,
