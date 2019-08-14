@@ -5,6 +5,7 @@ import store from './store'
 
 import "@/assets/css/reset.css"
 import "@/assets/js/rem.js"
+import "@/mock/mock.js"
 
 Vue.config.productionTip = false
 
