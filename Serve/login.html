@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>登录页面</h1>
+     <form action="http://localhost:3000" method="post">  <!-- action 后端服务器地址 -->
+        <p>
+            <label for="username">用户名</label>  <!-- label作用 点击用户名时input输入框获取焦点  label的for属性与input的ID相同 -->
+            <input type="text" id="username" name="username">
+        </p>
+        <p>
+            <label for="password">密码</label>
+            <input type="password" id="password" name="password">
+        </p>
+        <input type="submit" value="登录">
+
+
+    </form>
+</body>
+</html>
+<!-- 
+MVC： Model(数据库) View(界面部分 vue) Controller(连接M与V的)
+MVVM：区别？？？？？？？？？
+
+
+ -->
